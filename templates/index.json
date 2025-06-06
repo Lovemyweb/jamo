@@ -18,6 +18,26 @@
         "text_button_text": "Shop Now →"
       }
     },
+    "usp_1_GcmVLq": {
+      "type": "usp_1",
+      "blocks": {
+        "usp_item_hALL8d": {
+          "type": "usp-item",
+          "settings": {
+            "text_headline": "Recylable Packaging",
+            "richtext_text": "<p>Packaging made of materials that can be used again after processing again after processing.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "usp_item_hALL8d"
+      ],
+      "name": "USP 1",
+      "settings": {
+        "text_headline": "Biodegradable Pouches",
+        "richtext_text": "<p>Packaging that has the ability to break down and decompose into natural elements within a year or less.</p>"
+      }
+    },
     "hero": {
       "type": "hero",
       "settings": {
@@ -61,34 +81,14 @@
         "text_artikel_3_titel": "Blog title heading will go here",
         "text_artikel_3_excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros."
       }
-    },
-    "usp_1_GcmVLq": {
-      "type": "usp_1",
-      "blocks": {
-        "usp_item_hALL8d": {
-          "type": "usp-item",
-          "settings": {
-            "text_headline": "Recylable Packaging",
-            "richtext_text": "<p>Packaging made of materials that can be used again after processing again after processing.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "usp_item_hALL8d"
-      ],
-      "name": "USP 1",
-      "settings": {
-        "text_headline": "Biodegradable Pouches",
-        "richtext_text": "<p>Packaging that has the ability to break down and decompose into natural elements within a year or less.</p>"
-      }
     }
   },
   "layout": "theme",
   "wrapper": "main.main-wrapper",
   "order": [
     "liquify_hero",
-    "hero",
     "usp_1_GcmVLq",
+    "hero",
     "category",
     "links",
     "content"
