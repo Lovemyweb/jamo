@@ -9,7 +9,7 @@
                                     <img loading="lazy" li-object:src="image.src | product_img_url: 'master'" li-object:alt="image.alt" src="{{ image.src | product_img_url: 'master' }}" alt="{{ image.alt }}" class="product_thumbnail-image">
 
                         </div>
-{% endfor %}</div></div></div><div class="swiper-slide is-product-thumbnail is-active hide"></div></div><div id="w-node-_7048b639-be81-c25f-3e39-a62262971160-fda740ca" class="product-header_product-details"><div li-object="product.vendor" class="text-size-regular">{{ product.vendor }}</div><h1 li-object:text="product.title" class="heading-style-h2">
+{% endfor %}</div></div></div><div class="swiper-slide is-product-thumbnail is-active hide"></div></div><div id="w-node-_7048b639-be81-c25f-3e39-a62262971160-fda740ca" class="product-header_product-details"><h1 li-object:text="product.title" class="heading-style-h2">
 {{ product.title }}
 </h1><div class="product-header_price-wrapper"><div li-js-price="price" class="text-size-large text-weight-bold" x-text="LiquifyHelper.moneyFormat(price, true, '{{ shop.money_with_currency_format }}')">$55</div><template x-if="selected_or_first_available_variant.compare_at_price > selected_or_first_available_variant.price">
             <div li-js-if="selected_or_first_available_variant.compare_at_price > selected_or_first_available_variant.price">
