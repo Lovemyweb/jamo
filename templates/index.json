@@ -53,7 +53,7 @@
         "text_headline": "Short heading here",
         "url_button_link": "",
         "text_button_text": "All products",
-        "collection_collection": "",
+        "collection_collection": "frontpage",
         "collection_collection_limit": 6
       }
     },
