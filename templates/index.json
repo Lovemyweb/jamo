@@ -81,6 +81,37 @@
         "text_artikel_3_titel": "Blog title heading will go here",
         "text_artikel_3_excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros."
       }
+    },
+    "newsletter_QadeyW": {
+      "type": "newsletter",
+      "name": "newsletter",
+      "settings": {
+        "text_newsletter_headline": "Signup for Newsletter",
+        "text_text": "Be the first to know about the latest, exclusive offers, and exciting product launches by subscribing to our newsletter.",
+        "text_checkbox": "By subscribing you agree to with our Privacy Policy and provide consent to receive updates from our company."
+      }
+    },
+    "print_ePHdTC": {
+      "type": "print",
+      "blocks": {
+        "print_grid_PH4LVN": {
+          "type": "print-grid",
+          "settings": {
+            "url_image_link": "",
+            "text_caption": "Printing",
+            "text_headline": "Print On Pouch",
+            "article_artikel_2": "",
+            "text_text": "You can choose your desired material, colour, size, function tear notches, press seal zippers and design to create your own customised flexible packaging that matches your needs.",
+            "url_button_link": "",
+            "text_button_text": "Shop Now →"
+          }
+        }
+      },
+      "block_order": [
+        "print_grid_PH4LVN"
+      ],
+      "name": "print",
+      "settings": {}
     }
   },
   "layout": "theme",
@@ -90,7 +121,9 @@
     "usp_1_GcmVLq",
     "hero",
     "category",
+    "print_ePHdTC",
     "links",
-    "content"
+    "content",
+    "newsletter_QadeyW"
   ]
 }
