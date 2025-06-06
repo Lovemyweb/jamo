@@ -10,19 +10,7 @@
 
                             
                         </div>
-{% endfor %}</div><div id="w-node-_946c4dcd-3bf7-2b09-3073-715a0eb0badd-cf39daf1" class="footer_newsletter"><h2 class="heading-style-h2 text-color-white">
-{{ section.settings.text_newsletter_headline }}
-</h2>
-<div class="footer_form-block w-form">{% form 'customer', return_to: '/', class: 'footer_form' %}
-<div class="form_field-wrapper"><label for="email" class="form_hidden-label">Your E-Mail-Address</label><input class="form_input is-white w-input" maxlength="256" name="contact[email]" data-name="email" placeholder="Your E-Mail-Address" type="email" id="email" required="">
-</div><div li-object="form.errors | default_errors" class="text-size-regular text-color-red">{{ form.errors | default_errors }}</div><div id="w-node-ced975e7-1b4d-f69e-9e83-8c61141236df-cf39daf1" class="hide w-embed"><input type="hidden" name="contact[accepts_marketing]" value="false">
-</div><label id="w-node-ced975e7-1b4d-f69e-9e83-8c61141236e0-cf39daf1" class="w-checkbox form_checkbox" name="contact[accepts_marketing]"><input type="checkbox" name="Accepts-Marketing" id="Accepts-Marketing" data-name="Accepts Marketing" class="w-checkbox-input form_checkbox-icon">
-<span class="form_checkbox-label text-size-tiny w-form-label" for="Accepts-Marketing">
-{{ section.settings.text_checkbox }}
-</span>
-</label><input type="submit" data-wait="" id="w-node-_8c754474-e4d5-bcc2-d22b-03af6f725bec-cf39daf1" class="button w-button" value="Subscribe to Newsletter">
-{% endform %}
-<div class="hide w-form-done"><div>Thank you! Your submission has been received!</div></div><div class="hide w-form-fail"><div>Oops! Something went wrong while submitting the form.</div></div></div></div></div></div></div><div class="footer_divider"></div><div class="padding-global padding-section-small"><div class="container-large"><div class="footer_icon-grid"><div class="footer_icon-block"><div class="text-size-regular text-color-white">Delivery</div><div class="footer_icon-row">{% for block in section.blocks %}
+{% endfor %}</div></div></div></div><div class="footer_divider"></div><div class="padding-global padding-section-small"><div class="container-large"><div class="footer_icon-grid"><div class="footer_icon-block"><div class="text-size-regular text-color-white">Delivery</div><div class="footer_icon-row">{% for block in section.blocks %}
     {% if block.type == "lieferung-icon" %}
                     <div li-block="Lieferung-icon" class="footer_icon-item">
                                     <img src="{{ block.settings.image_icon | img_url: 'master' }}" loading="lazy" alt="{{ block.settings.image_icon.alt }}" class="footer_shipping-icon">
@@ -79,4 +67,4 @@
 }
 customElements.define('localization-form', LocalizationForm);
 </script></div>    </localization-form>
-{% endif %}</div></div></div> {% schema %} {"tag":"footer","name":"footer","class":"section_footer","blocks":[{"name":"Lieferung-icon","type":"lieferung-icon","settings":[{"id":"image_icon","type":"image_picker","label":"icon"}]},{"name":"Social-media","type":"social-media","settings":[{"id":"url_social_link","type":"url","label":"Social-link"},{"id":"image_social_icon","type":"image_picker","label":"social-icon"}]}],"settings":[{"id":"text_newsletter_headline","type":"text","label":"Newsletter-Headline","default":"Signup for Newsletter"},{"id":"text_checkbox","type":"text","label":"Checkbox","default":"By subscribing you agree to with our <a href=\"#\"><span class=\"text-color-white text-style-link\">Privacy Policy<\/span><\/a> and provide consent to receive updates from our company."}],"presets":[{"name":"footer","category":"Liquify","blocks":[{"type":"lieferung-icon"},{"type":"social-media"}]}]} {% endschema %}
+{% endif %}</div></div></div> {% schema %} {"tag":"footer","name":"footer","class":"section_footer","blocks":[{"name":"Lieferung-icon","type":"lieferung-icon","settings":[{"id":"image_icon","type":"image_picker","label":"icon"}]},{"name":"Social-media","type":"social-media","settings":[{"id":"url_social_link","type":"url","label":"Social-link"},{"id":"image_social_icon","type":"image_picker","label":"social-icon"}]}],"presets":[{"name":"footer","category":"Liquify","blocks":[{"type":"lieferung-icon"},{"type":"social-media"}]}]} {% endschema %}
