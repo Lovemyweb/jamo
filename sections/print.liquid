@@ -1,0 +1,23 @@
+<div class="padding-global padding-section-medium"><div class="container-large"><div class="blog_component">{% for block in section.blocks %}
+    {% if block.type == "print-grid" %}
+                    <div li-block="print-grid" class="blog_featured-item">
+                                    
+                                    <a href="{{ block.settings.url_image_link }}" class="blog_featured-image-link w-inline-block"> <div class="blog_featured-image-wrapper"><div class="blog_titel-wrapper"></div><img class="blog_featured-image" src="{{ block.settings.image_image | img_url: 'master' }}" width="612" height="612" alt="{{ block.settings.image_image.alt }}" sizes="(max-width: 767px) 100vw, 612px" loading="lazy"></div> </a>
+
+                                    
+                                    <div id="w-node-_3b2615f0-093a-8753-98e6-1b2d806e9ee7-fda74052" class="blog_two-articles"><div><div class="caption">
+{{ block.settings.text_caption }}
+</div>
+<h2 class="heading-style-h3">
+{{ block.settings.text_headline }}
+</h2>
+</div><div class="blog_featured-item-content">{% assign article = articles[section.settings.article_artikel_2] %} <div class="text-size-regular">
+{{ block.settings.text_text }}
+</div>
+</div><a href="{{ block.settings.url_button_link }}" class="button w-button"> {{ block.settings.text_button_text }} </a>
+</div>
+                                    
+                            </div>
+            {% endif %}
+{% endfor %}
+</div></div></div> {% schema %} {"tag":"div","name":"print","class":"section_print","blocks":[{"name":"print-grid","type":"print-grid","settings":[{"id":"url_image_link","type":"url","label":"Image-link"},{"id":"image_image","type":"image_picker","label":"image"},{"id":"text_caption","type":"text","label":"caption","default":"Printing"},{"id":"text_headline","type":"text","label":"Headline","default":"Print On Pouch"},{"id":"article_artikel_2","type":"article","label":"Artikel-2"},{"id":"text_text","type":"text","label":"text","default":"You can choose your desired material, colour, size, function tear notches, press seal zippers and design to create your own customised flexible packaging that matches your needs."},{"id":"url_button_link","type":"url","label":"Button-Link"},{"id":"text_button_text","type":"text","label":"Button-Text","default":"Shop Now \u2192"}]}],"presets":[{"name":"print","category":"Liquify","blocks":[{"type":"print-grid"}]}]} {% endschema %}
