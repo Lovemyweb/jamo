@@ -38,15 +38,6 @@
         "richtext_text": "<p>Packaging that has the ability to break down and decompose into natural elements within a year or less.</p>"
       }
     },
-    "hero": {
-      "type": "hero",
-      "settings": {
-        "text_headline": "Short heading here",
-        "richtext_text": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>",
-        "url_button_link": "",
-        "text_button_text": "More Information"
-      }
-    },
     "category": {
       "type": "category",
       "settings": {
@@ -56,6 +47,28 @@
         "collection_collection": "frontpage",
         "collection_collection_limit": 6
       }
+    },
+    "print_ePHdTC": {
+      "type": "print",
+      "blocks": {
+        "print_grid_PH4LVN": {
+          "type": "print-grid",
+          "settings": {
+            "url_image_link": "",
+            "text_caption": "Printing",
+            "text_headline": "Print On Pouch",
+            "article_artikel_2": "",
+            "text_text": "You can choose your desired material, colour, size, function tear notches, press seal zippers and design to create your own customised flexible packaging that matches your needs.",
+            "url_button_link": "",
+            "text_button_text": "Shop Now →"
+          }
+        }
+      },
+      "block_order": [
+        "print_grid_PH4LVN"
+      ],
+      "name": "print",
+      "settings": {}
     },
     "links": {
       "type": "links",
@@ -90,28 +103,6 @@
         "text_text": "Be the first to know about the latest, exclusive offers, and exciting product launches by subscribing to our newsletter.",
         "text_checkbox": "By subscribing you agree to with our Privacy Policy and provide consent to receive updates from our company."
       }
-    },
-    "print_ePHdTC": {
-      "type": "print",
-      "blocks": {
-        "print_grid_PH4LVN": {
-          "type": "print-grid",
-          "settings": {
-            "url_image_link": "",
-            "text_caption": "Printing",
-            "text_headline": "Print On Pouch",
-            "article_artikel_2": "",
-            "text_text": "You can choose your desired material, colour, size, function tear notches, press seal zippers and design to create your own customised flexible packaging that matches your needs.",
-            "url_button_link": "",
-            "text_button_text": "Shop Now →"
-          }
-        }
-      },
-      "block_order": [
-        "print_grid_PH4LVN"
-      ],
-      "name": "print",
-      "settings": {}
     }
   },
   "layout": "theme",
@@ -119,7 +110,6 @@
   "order": [
     "liquify_hero",
     "usp_1_GcmVLq",
-    "hero",
     "category",
     "print_ePHdTC",
     "links",
