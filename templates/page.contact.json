@@ -12,17 +12,16 @@
     "contact": {
       "type": "contact",
       "settings": {
-        "text_headline": "Contact us",
-        "text_text": "Jamo Solutions LTD",
         "url_phone_link": "tel:+442033719569",
         "text_phone_number": "02033719569",
         "url_email_link": "mailto:info@jamosolutions.co.uk",
         "text_email_address": "info@jamosolutions.co.uk",
-        "richtext_office_address": "<p>Grays Farm Road 8<br/>BR5 3AD Orpington<br/>Kent</p>",
-        "richtext_warehouse_address": "<p>Texcel Business Park,<br/>Unit C8<br/>DA1 4SB Dartford<br/>Kent</p>",
-        "richtext_opening_hours": "<p>Monday - Friday<br/>Office hours 9am - 5pm<br/>Phone line 930am - 430pm</p>",
-        "url_button_link": "mailto:finance@jamosultion.co.uk",
-        "text_button_text": "finance@jamosultion.co.uk"
+        "richtext_opening_hours": "<p>Monday - Friday<br/>Office hours 9am - 5pm<br/>Phone line 9:30am - 4:30pm</p>",
+        "text_text": "Jamo Solutions LTD",
+        "url_finance_btn_link": "",
+        "text_finance_btn_text": "finance@jamosultion.co.uk",
+        "url_marketing_btn_link": "",
+        "text_marketing_btn_text": "finance@jamosultion.co.uk"
       }
     }
   },
