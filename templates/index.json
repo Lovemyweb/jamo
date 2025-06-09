@@ -41,7 +41,7 @@
     "category": {
       "type": "category",
       "settings": {
-        "text_headline": "Short heading here",
+        "text_headline": "Best sellers",
         "url_button_link": "",
         "text_button_text": "All products",
         "collection_collection": "frontpage",
@@ -55,6 +55,7 @@
           "type": "print-grid",
           "settings": {
             "url_image_link": "",
+            "image_image": "shopify://shop_images/print-on-pouch.jpg",
             "text_caption": "Printing",
             "text_headline": "Print On Pouch",
             "article_artikel_2": "",
