@@ -1747,6 +1747,8 @@ figcaption {
 }
 
 .nav_shop-icons {
+  grid-column-gap: .1rem;
+  grid-row-gap: .1rem;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -4318,6 +4320,40 @@ figcaption {
   grid-row-gap: 2rem;
   grid-template-rows: auto;
   grid-template-columns: 1fr;
+}
+
+.bredcrumbs {
+  padding: .5rem 5%;
+}
+
+.bredcrumbs-list {
+  grid-column-gap: .25rem;
+  grid-row-gap: .25rem;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding-left: 0;
+  list-style-type: none;
+  display: flex;
+}
+
+.bredcrumb-item {
+  letter-spacing: -.2px;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 0;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 150%;
+  display: flex;
+}
+
+.bredcrumb-link {
+  transition: opacity .2s;
+}
+
+.bredcrumb-link:hover {
+  opacity: .75;
 }
 
 @media screen and (max-width: 991px) {
