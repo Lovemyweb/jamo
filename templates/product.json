@@ -23,10 +23,17 @@
     },
     "1749804360a31e952c": {
       "type": "apps",
-      "settings": {}
-    },
-    "1749805822fb0c76ce": {
-      "type": "apps",
+      "blocks": {
+        "vo_product_options_block_FU78mz": {
+          "type": "shopify://apps/vo-product-options/blocks/block/430cbd7b-bd20-4c16-ba41-db6f4c645164",
+          "settings": {
+            "font_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "vo_product_options_block_FU78mz"
+      ],
       "settings": {}
     }
   },
@@ -35,7 +42,6 @@
   "order": [
     "product_hero",
     "product_recommended",
-    "1749804360a31e952c",
-    "1749805822fb0c76ce"
+    "1749804360a31e952c"
   ]
 }
