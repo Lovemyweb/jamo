@@ -60,7 +60,41 @@
         }{% if forloop.last == false %},{% endif %}{% endfor %}
         ]
         }
-    </script><script type="application/ld+json">{
+    </script>
+  
+  
+  <!-- Pobranie aktualnego czasu UTC -->
+{% assign time = 'now' | time_zone: 'UTC' %}
+{% assign hour = time | date: '%H' | plus: 0 %}
+{% assign minute = time | date: '%M' | plus: 0 %}
+
+<!-- Cutoff ustawiony na 14:00 UTC = 13:00 UK time -->
+{% assign cutoff_hour = 14 %}
+{% assign cutoff_minute = 0 %}
+
+<!-- Obliczenie różnicy w minutach -->
+{% assign current_total_minutes = hour | times: 60 | plus: minute %}
+{% assign cutoff_total_minutes = cutoff_hour | times: 60 | plus: cutoff_minute %}
+{% assign diff_minutes = cutoff_total_minutes | minus: current_total_minutes %}
+
+<!-- Rozdzielenie minut na godziny i minuty -->
+{% assign remaining_hours = diff_minutes | divided_by: 60 %}
+{% assign remaining_minutes = diff_minutes | modulo: 60 %}
+
+<!-- Wyświetlenie komunikatu -->
+{% if diff_minutes > 0 %}
+  <div class="shipping-message">
+    Order within {{ remaining_hours }}h {{ remaining_minutes }}m for same day shipping
+  </div>
+{% else %}
+  <div class="shipping-message">
+    Order now for next day shipping
+  </div>
+{% endif %}
+
+  
+  
+  <script type="application/ld+json">{
          "@context": "https://schema.org",
          "@type": "BreadcrumbList",
          "itemListElement":
