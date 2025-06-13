@@ -12,6 +12,18 @@
     "sections": {
       "header": {
         "type": "header",
+        "blocks": {
+          "search_suggestion_gahFjM": {
+            "type": "search-suggestion",
+            "settings": {
+              "url_link": "shopify://collections/search-bar-promo",
+              "text_text": "Tag"
+            }
+          }
+        },
+        "block_order": [
+          "search_suggestion_gahFjM"
+        ],
         "settings": {
           "collection_search_bestseller": "",
           "collection_search_bestseller_limit": 6
