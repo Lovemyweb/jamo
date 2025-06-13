@@ -24,6 +24,10 @@
     "1749804360a31e952c": {
       "type": "apps",
       "settings": {}
+    },
+    "1749805822fb0c76ce": {
+      "type": "apps",
+      "settings": {}
     }
   },
   "layout": "product",
@@ -31,6 +35,7 @@
   "order": [
     "product_hero",
     "product_recommended",
-    "1749804360a31e952c"
+    "1749804360a31e952c",
+    "1749805822fb0c76ce"
   ]
 }
