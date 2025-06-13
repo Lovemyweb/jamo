@@ -9,11 +9,24 @@
  */
 {
   "current": {
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {
+          "collection_search_bestseller": "",
+          "collection_search_bestseller_limit": 6
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "settings": {}
+      }
+    },
     "content_for_index": [],
     "blocks": {
       "4981902369724952902": {
         "type": "shopify://apps/vo-product-options/blocks/embed-block/430cbd7b-bd20-4c16-ba41-db6f4c645164",
-        "disabled": false,
+        "disabled": true,
         "settings": {}
       }
     }
