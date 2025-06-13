@@ -1,4 +1,4 @@
-<div class="padding-global padding-section-medium"><div class="container-large"><div class="footer_newsletter"><h2 class="heading-style-h2">
+<div class="padding-global padding-section-small"><div class="container-large"><div class="footer_newsletter"><h2 class="heading-style-h2">
 {{ section.settings.text_newsletter_headline }}
 </h2>
 <div class="div-block-2"><div class="text-size-regular">
@@ -6,11 +6,11 @@
 </div>
 <div class="footer_form-block w-form">{% form 'customer', return_to: '/', class: 'footer_form' %}
 <div class="div-block"><div class="form_field-wrapper"><label for="Email-3" class="form_hidden-label">Your E-Mail-Address</label><input class="form_input_newsletter w-input" maxlength="256" name="contact[email]" data-name="Email" placeholder="Enter email" type="email" id="Email-3" required="">
-</div><input type="submit" data-wait="" id="w-node-_3b1187d8-a422-e8a7-30eb-46a8e2513b89-fda74052" class="button-newsletter w-button" value="Sign Up">
-</div><div li-object="form.errors | default_errors" class="text-size-regular text-color-red">{{ form.errors | default_errors }}</div><label id="w-node-_3b1187d8-a422-e8a7-30eb-46a8e2513b81-fda74052" class="w-checkbox form_checkbox" name="contact[accepts_marketing]"><input type="checkbox" name="privacy-policy" id="privacy-policy" data-name="privacy policy" required="" class="w-checkbox-input form_checkbox-icon">
+</div><input type="submit" data-wait="" id="w-node-_0ec17591-5afe-5b97-8a78-b0323160a681-fda740ca" class="button-newsletter w-button" value="Sign Up">
+</div><div li-object="form.errors | default_errors" class="text-size-regular text-color-red">{{ form.errors | default_errors }}</div><label id="w-node-_0ec17591-5afe-5b97-8a78-b0323160a684-fda740ca" class="w-checkbox form_checkbox" name="contact[accepts_marketing]"><div class="w-checkbox-input w-checkbox-input--inputType-custom form_checkbox-icon"></div><input type="checkbox" name="privacy-policy" id="privacy-policy" data-name="privacy policy" required="" style="opacity:0;position:absolute;z-index:-1">
 <span class="form_checkbox-label text-size-tiny w-form-label" for="privacy-policy">
 {{ section.settings.text_checkbox }}
 </span>
-</label><div id="w-node-_3b1187d8-a422-e8a7-30eb-46a8e2513b80-fda74052" class="hide w-embed"><input type="hidden" name="contact[accepts_marketing]" value="false">
+</label><div id="w-node-_0ec17591-5afe-5b97-8a78-b0323160a68c-fda740ca" class="hide w-embed"><input type="hidden" name="contact[accepts_marketing]" value="false">
 </div>{% endform %}
 <div class="hide w-form-done"><div>Thank you! Your submission has been received!</div></div><div class="hide w-form-fail"><div>Oops! Something went wrong while submitting the form.</div></div></div></div></div></div></div> {% schema %} {"tag":"div","name":"newsletter","class":"newsletter","settings":[{"id":"text_newsletter_headline","type":"text","label":"Newsletter-Headline","default":"Signup for Newsletter"},{"id":"text_text","type":"text","label":"text","default":"Be the first to know about the latest, exclusive offers, and exciting product launches by subscribing to our newsletter."},{"id":"text_checkbox","type":"text","label":"Checkbox","default":"By subscribing you agree to with our <a href=\"#\"><span>Privacy Policy<\/span><\/a> and provide consent to receive updates from our company."}],"presets":[{"name":"newsletter","category":"Liquify","blocks":[]}]} {% endschema %}
