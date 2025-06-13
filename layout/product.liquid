@@ -60,37 +60,7 @@
         }{% if forloop.last == false %},{% endif %}{% endfor %}
         ]
         }
-    </script>
-  
-  <!-- Pobranie aktualnego czasu UTC -->
-<div li-tag="assign time = 'now' | time_zone: 'UTC'" style="display:none;"></div>
-
-<!-- Godzina i minuta w formacie liczbowym -->
-<div li-tag="assign hour = time | date: '%H' | plus: 0" style="display:none;"></div>
-<div li-tag="assign minute = time | date: '%M' | plus: 0" style="display:none;"></div>
-
-<!-- Cutoff ustawiony na 14:00 UTC = 13:00 UK time -->
-<div li-tag="assign cutoff_hour = 14" style="display:none;"></div>
-<div li-tag="assign cutoff_minute = 0" style="display:none;"></div>
-
-<!-- Obliczenie różnicy w minutach -->
-<div li-tag="assign current_total_minutes = hour | times: 60 | plus: minute" style="display:none;"></div>
-<div li-tag="assign cutoff_total_minutes = cutoff_hour | times: 60 | plus: cutoff_minute" style="display:none;"></div>
-<div li-tag="assign diff_minutes = cutoff_total_minutes | minus: current_total_minutes" style="display:none;"></div>
-
-<!-- Rozdzielenie minut na godziny i minuty -->
-<div li-tag="assign remaining_hours = diff_minutes | divided_by: 60" style="display:none;"></div>
-<div li-tag="assign remaining_minutes = diff_minutes | modulo: 60" style="display:none;"></div>
-
-<!-- Warunek: jeśli po godzinie cutoff, pokazujemy "next day" -->
-<div li-tag="
-  assign text = diff_minutes > 0
-    | ternary: 'Order within ' | append: remaining_hours | append: 'h ' | append: remaining_minutes | append: 'm for same day shipping',
-                'Order now for next day shipping'
-" li-object="text"></div>
-
-  
-  <script type="application/ld+json">{
+    </script><script type="application/ld+json">{
          "@context": "https://schema.org",
          "@type": "BreadcrumbList",
          "itemListElement":
