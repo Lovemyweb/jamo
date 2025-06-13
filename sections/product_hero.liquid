@@ -1,9 +1,7 @@
 <div li-section="breadcrumb" class="bredcrumbs"><ul role="list" class="bredcrumbs-list"><li class="bredcrumb-item"><a li-object:href="routes.root_url" href="{{ routes.root_url }}" class="bredcrumb-link w-inline-block"><div>Home</div></a><img src="{{ 'bredcrumb-icon.svg' | asset_url }}" loading="lazy" width="16" height="16" alt="" class="breadcrumbs_icon">
 </li>{% if template == 'product' %}    <li li-if="template == 'product'" class="bredcrumb-item">
     {% if collection.url %}    <div li-if="collection.url">
-    <a li-object:href="collection.url" href="{{ collection.url }}" class="bredcrumb-link w-inline-block"><div li-object="collection.title">{{ collection.title }}</div></a>    </div>
-{% endif %}{% if collection.url == blank %}    <div li-if="collection.url == blank">
-    <div li-object="product.vendor">{{ product.vendor }}</div>    </div>
+    <a li-object:href="primary_collection.url" href="{{ primary_collection.url }}" class="bredcrumb-link w-inline-block"><div li-object="primary_collection.title">{{ primary_collection.title }}</div></a>    </div>
 {% endif %}<img src="{{ 'bredcrumb-icon.svg' | asset_url }}" loading="lazy" width="16" height="16" alt="" class="breadcrumbs_icon">
     </li>
 {% endif %}{% if template == 'article' %}    <li li-if="template == 'article'" class="bredcrumb-item">
