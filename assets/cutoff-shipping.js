@@ -1,7 +1,7 @@
 /*
   Shopify Plugin: Cutoff Shipping Timer
   Purpose: Show a dynamic shipping message based on current time vs cutoff time (13:00 UK = 14:00 UTC)
-  Author: Michal
+  Author: lovemyweb.com
 */
 
 (function () {
