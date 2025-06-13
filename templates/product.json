@@ -1,16 +1,47 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
-    "sections": {
-        "product_hero": {
-            "type": "product_hero"
-        },
-        "product_recommended": {
-            "type": "product_recommended"
-        }
+  "sections": {
+    "product_hero": {
+      "type": "product_hero",
+      "settings": {
+        "text_headline": "Description"
+      }
     },
-    "layout": "product",
-    "wrapper": "main.main-wrapper",
-    "order": [
-        "product_hero",
-        "product_recommended"
-    ]
+    "product_recommended": {
+      "type": "product_recommended",
+      "settings": {
+        "text_headline": "Recommended"
+      }
+    },
+    "1749804360a31e952c": {
+      "type": "apps",
+      "blocks": {
+        "vo_product_options_block_YrMRNq": {
+          "type": "shopify://apps/vo-product-options/blocks/block/430cbd7b-bd20-4c16-ba41-db6f4c645164",
+          "settings": {
+            "font_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "vo_product_options_block_YrMRNq"
+      ],
+      "settings": {}
+    }
+  },
+  "layout": "product",
+  "wrapper": "main.main-wrapper",
+  "order": [
+    "product_hero",
+    "product_recommended",
+    "1749804360a31e952c"
+  ]
 }
