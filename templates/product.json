@@ -11,9 +11,7 @@
   "sections": {
     "product_hero": {
       "type": "product_hero",
-      "settings": {
-        "text_headline": "Description"
-      }
+      "settings": {}
     },
     "product_recommended": {
       "type": "product_recommended",
@@ -25,6 +23,11 @@
     "1749804360a31e952c": {
       "type": "apps",
       "settings": {}
+    },
+    "cutoff_shipping_BjLT8p": {
+      "type": "cutoff-shipping",
+      "name": "Cutoff Shipping Info",
+      "settings": {}
     }
   },
   "layout": "product",
@@ -32,6 +35,7 @@
   "order": [
     "product_hero",
     "product_recommended",
-    "1749804360a31e952c"
+    "1749804360a31e952c",
+    "cutoff_shipping_BjLT8p"
   ]
 }
