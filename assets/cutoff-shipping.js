@@ -11,7 +11,7 @@
 
     const now = new Date();
     const cutoffUTC = new Date();
-    cutoffUTC.setUTCHours(14, 0, 0, 0); // 14:00 UTC = 13:00 UK
+    cutoffUTC.setUTCHours(21, 0, 0, 0); // 14:00 UTC = 13:00 UK
 
     if (now < cutoffUTC) {
       const diffMs = cutoffUTC - now;
