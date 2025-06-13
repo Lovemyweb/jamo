@@ -13,15 +13,32 @@
     const cutoffUTC = new Date();
     cutoffUTC.setUTCHours(14, 0, 0, 0); // 14:00 UTC = 13:00 UK
 
+    let message = "";
+
     if (now < cutoffUTC) {
       const diffMs = cutoffUTC - now;
       const diffMins = Math.floor(diffMs / 60000);
       const hours = Math.floor(diffMins / 60);
       const minutes = diffMins % 60;
-      container.innerText = `Order within ${hours}h ${minutes}m for same day shipping`;
+      message = `Order within ${hours}h ${minutes}m for same day shipping`;
     } else {
-      container.innerText = `Order now for next day shipping`;
+      // Calculate time left until 23:59 UK (22:59 UTC)
+      const endOfDayUTC = new Date();
+      endOfDayUTC.setUTCHours(22, 59, 0, 0); // 23:59 UK = 22:59 UTC
+
+      const diffMs = endOfDayUTC - now;
+      const diffMins = Math.floor(diffMs / 60000);
+      const hours = Math.floor(diffMins / 60);
+      const minutes = diffMins % 60;
+
+      if (diffMs > 0) {
+        message = `Order now for next day shipping – ${hours}h ${minutes}m left to order today`;
+      } else {
+        message = `Order now for next day shipping`;
+      }
     }
+
+    container.innerText = message;
   }
 
   document.addEventListener("DOMContentLoaded", function () {
