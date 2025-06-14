@@ -65,27 +65,21 @@
       ],
       "settings": {}
     },
-    "newsletter_QadeyW": {
-      "type": "newsletter",
-      "settings": {
-        "text_newsletter_headline": "Signup for Newsletter",
-        "text_text": "Be the first to know about the latest, exclusive offers, and exciting product launches by subscribing to our newsletter.",
-        "text_checkbox": "By subscribing you agree to with our Privacy Policy and provide consent to receive updates from our company."
-      }
-    },
     "collection_swiper_1_UymyTh": {
       "type": "collection_swiper_1",
       "name": "Collection Swiper 1",
       "settings": {
         "text_heading": "Carousel name",
         "collection_list": [
-          "stand-up-pouches",
-          "spout-pouch",
-          "heat-seal-flat-pouches",
-          "coffee-bags",
           "bread-bag",
           "biodegradable-packaging",
-          "clear-translucent-window-stand-up-pouches"
+          "clear-translucent-window-stand-up-pouches",
+          "foil-mylar-stand-up-pouches",
+          "frontpage",
+          "coffee-bags",
+          "coffee-bags-with-valve",
+          "electrostatic-no-glue-required-stickers",
+          "floor-non-slip-stickers"
         ],
         "collection_limit": 12
       }
@@ -100,6 +94,14 @@
         "richtext_text_2": "<p>Simple, safe and secure - shop now and pay later</p>",
         "text_headline_3": "Secure payments",
         "richtext_text_3": "<p>30 days money-back guarantee and secure payments</p>"
+      }
+    },
+    "newsletter_QadeyW": {
+      "type": "newsletter",
+      "settings": {
+        "text_newsletter_headline": "Signup for Newsletter",
+        "text_text": "Be the first to know about the latest, exclusive offers, and exciting product launches by subscribing to our newsletter.",
+        "text_checkbox": "By subscribing you agree to with our Privacy Policy and provide consent to receive updates from our company."
       }
     }
   },
