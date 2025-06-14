@@ -19,25 +19,6 @@
         "image_image": "shopify://shop_images/hero-img.png"
       }
     },
-    "usp_1_GcmVLq": {
-      "type": "usp_1",
-      "blocks": {
-        "usp_item_hALL8d": {
-          "type": "usp-item",
-          "settings": {
-            "text_headline": "Recylable Packaging",
-            "richtext_text": "<p>Packaging made of materials that can be used again after processing again after processing.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "usp_item_hALL8d"
-      ],
-      "settings": {
-        "text_headline": "Biodegradable Pouches",
-        "richtext_text": "<p>Packaging that has the ability to break down and decompose into natural elements within a year or less.</p>"
-      }
-    },
     "category": {
       "type": "category",
       "settings": {
@@ -101,7 +82,6 @@
   "wrapper": "main.main-wrapper",
   "order": [
     "liquify_hero",
-    "usp_1_GcmVLq",
     "category",
     "print_ePHdTC",
     "collection_swiper_1_nmicNk",
