@@ -19,16 +19,6 @@
         "image_image": "shopify://shop_images/hero-img.png"
       }
     },
-    "category": {
-      "type": "category",
-      "settings": {
-        "text_headline": "Best sellers",
-        "url_button_link": "",
-        "text_button_text": "All products",
-        "collection_collection": "frontpage",
-        "collection_collection_limit": 6
-      }
-    },
     "print_ePHdTC": {
       "type": "print",
       "blocks": {
@@ -51,24 +41,6 @@
       ],
       "settings": {}
     },
-    "collection_swiper_1_nmicNk": {
-      "type": "collection_swiper_1",
-      "name": "Collection Swiper 1",
-      "settings": {
-        "text_heading": "Shop by industry",
-        "collection_list": [
-          "bread-bag",
-          "tea-packaging",
-          "take-away-salad-pasta-soup-containers",
-          "tear-notch-stand-up-pouches",
-          "coffee-bags-with-valve",
-          "coffee-bags",
-          "biodegradable-packaging",
-          "clear-translucent-window-stand-up-pouches"
-        ],
-        "collection_limit": 12
-      }
-    },
     "newsletter_QadeyW": {
       "type": "newsletter",
       "settings": {
@@ -82,9 +54,7 @@
   "wrapper": "main.main-wrapper",
   "order": [
     "liquify_hero",
-    "category",
     "print_ePHdTC",
-    "collection_swiper_1_nmicNk",
     "newsletter_QadeyW"
   ]
 }
