@@ -70,31 +70,6 @@
       ],
       "settings": {}
     },
-    "product_swiper_1_PP9MVL": {
-      "type": "product_swiper_1",
-      "name": "Product Swiper 1",
-      "settings": {
-        "text_heading": "Discover our bestellers",
-        "product_list": [
-          "aluminium-flat-pouch-with-zip-lock",
-          "aluminium-foil-pouch-with-zip-lock",
-          "aluminium-silver-matt-flat-pouch",
-          "beige-aluminium-pouch-with-zip-lock-natural-look-large",
-          "beige-aluminium-pouch-with-zip-lock-natural-look-rounded-corners",
-          "black-matt-aluminium-side-gusset-pouch",
-          "black-matt-stand-up-pouch-with-zip-lock",
-          "black-shine-side-gusset-pouch",
-          "black-transparent-disposable-square-salad-food-meal-container-box-bowl",
-          "clear-plastic-take-out-triangle-cake-cheese-food-sandwich-container-carry-box",
-          "extra-thick-kraft-paper-aluminium-pouch-with-zip-lock",
-          "extra-thick-kraft-paper-pouch-with-zip-lock",
-          "extra-thick-pouch-with-window-and-zip-lock",
-          "fully-biodegradable-high-barrier-sealable-pouch-grip-heat-seal",
-          "gold-aluminium-side-gusset-pouch"
-        ],
-        "products_limit": 12
-      }
-    },
     "links": {
       "type": "links",
       "settings": {
@@ -127,6 +102,15 @@
         "text_text": "Be the first to know about the latest, exclusive offers, and exciting product launches by subscribing to our newsletter.",
         "text_checkbox": "By subscribing you agree to with our Privacy Policy and provide consent to receive updates from our company."
       }
+    },
+    "collection_swiper_1_j8B6hx": {
+      "type": "collection_swiper_1",
+      "name": "Collection Swiper 1",
+      "settings": {
+        "text_heading": "Lorem ipsum dolor sit amet",
+        "collection_list": [],
+        "collection_limit": 12
+      }
     }
   },
   "layout": "theme",
@@ -136,7 +120,7 @@
     "usp_1_GcmVLq",
     "category",
     "print_ePHdTC",
-    "product_swiper_1_PP9MVL",
+    "collection_swiper_1_j8B6hx",
     "links",
     "content",
     "newsletter_QadeyW"
