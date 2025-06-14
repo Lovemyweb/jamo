@@ -9,6 +9,40 @@
  */
 {
   "sections": {
+    "hero_4L9TXt": {
+      "type": "hero",
+      "name": "Hero",
+      "settings": {
+        "text_headline": "Boost Your Branding with Jamo Solutions",
+        "richtext_text": "<p>We use sustainable and eco-friendly materials, including options that are biodegradable and recyclable.</p>",
+        "url_button_link": "shopify://collections/all",
+        "text_button_text": "Shop Now →",
+        "image_image": "shopify://shop_images/hero-img.png"
+      }
+    },
+    "features_3col_3nmV7P": {
+      "type": "features_3col",
+      "name": "Features-3col",
+      "settings": {
+        "text_headline_1": "Recylable Packaging",
+        "richtext_text_1": "<p>Packaging made of materials that can be used again after processing again after processing.</p>",
+        "text_headline_2": "Biodegradable Pouches",
+        "richtext_text_2": "<p>Packaging that has the ability to break down and decompose into natural elements within a year or less.</p>",
+        "text_headline_3": "Compostable materials",
+        "richtext_text_3": "<p>Packaging that has similar properties to biodegradable and gives nutrients back to earth after breaking down.</p>"
+      }
+    },
+    "best_sellers_4col_9aPP9C": {
+      "type": "best_sellers_4col",
+      "name": "Best-Sellers-4col",
+      "settings": {
+        "text_headline": "Best sellers",
+        "url_button_link": "shopify://collections/frontpage",
+        "text_button_text": "Discover more  →",
+        "collection_collection": "frontpage",
+        "collection_collection_limit": 4
+      }
+    },
     "print_ePHdTC": {
       "type": "print",
       "blocks": {
@@ -38,12 +72,46 @@
         "text_text": "Be the first to know about the latest, exclusive offers, and exciting product launches by subscribing to our newsletter.",
         "text_checkbox": "By subscribing you agree to with our Privacy Policy and provide consent to receive updates from our company."
       }
+    },
+    "collection_swiper_1_UymyTh": {
+      "type": "collection_swiper_1",
+      "name": "Collection Swiper 1",
+      "settings": {
+        "text_heading": "Carousel name",
+        "collection_list": [
+          "stand-up-pouches",
+          "spout-pouch",
+          "heat-seal-flat-pouches",
+          "coffee-bags",
+          "bread-bag",
+          "biodegradable-packaging",
+          "clear-translucent-window-stand-up-pouches"
+        ],
+        "collection_limit": 12
+      }
+    },
+    "features_4col_wMPyFL": {
+      "type": "features_4col",
+      "name": "Features-4col",
+      "settings": {
+        "text_headline_1": "Free UK Delivery",
+        "richtext_text_1": "<p>Free shipping on all orders above 100 GBP</p>",
+        "text_headline_2": "Klarna. Pay in 30 days",
+        "richtext_text_2": "<p>Simple, safe and secure - shop now and pay later</p>",
+        "text_headline_3": "Secure payments",
+        "richtext_text_3": "<p>30 days money-back guarantee and secure payments</p>"
+      }
     }
   },
   "layout": "theme",
   "wrapper": "main.main-wrapper",
   "order": [
+    "hero_4L9TXt",
+    "features_3col_3nmV7P",
+    "best_sellers_4col_9aPP9C",
     "print_ePHdTC",
+    "collection_swiper_1_UymyTh",
+    "features_4col_wMPyFL",
     "newsletter_QadeyW"
   ]
 }
