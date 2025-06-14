@@ -48,18 +48,6 @@
         "text_text": "Be the first to know about the latest, exclusive offers, and exciting product launches by subscribing to our newsletter.",
         "text_checkbox": "By subscribing you agree to with our Privacy Policy and provide consent to receive updates from our company."
       }
-    },
-    "features_yawHTh": {
-      "type": "features",
-      "name": "Features",
-      "settings": {
-        "text_headline_1": "Free UK Delivery",
-        "richtext_text_1": "<p>Free shipping on all orders above 100 GBP</p>",
-        "text_headline_2": "Klarna. Pay in 30 days",
-        "richtext_text_2": "<p>Simple, safe and secure - shop now and pay later</p>",
-        "text_headline_3": "Secure payments",
-        "richtext_text_3": "<p>30 days money-back guarantee and secure payments</p>"
-      }
     }
   },
   "layout": "theme",
@@ -67,7 +55,6 @@
   "order": [
     "liquify_hero",
     "print_ePHdTC",
-    "newsletter_QadeyW",
-    "features_yawHTh"
+    "newsletter_QadeyW"
   ]
 }
