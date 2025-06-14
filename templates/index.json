@@ -70,26 +70,6 @@
       ],
       "settings": {}
     },
-    "collection_swiper_1_j8B6hx": {
-      "type": "collection_swiper_1",
-      "name": "Collection Swiper 1",
-      "settings": {
-        "text_heading": "Lorem ipsum dolor sit amet",
-        "collection_list": [
-          "bread-bag",
-          "biodegradable-packaging",
-          "clear-translucent-window-stand-up-pouches",
-          "coffee-bags",
-          "coffee-bags-with-valve",
-          "electrostatic-no-glue-required-stickers",
-          "floor-non-slip-stickers",
-          "foil-mylar-stand-up-pouches",
-          "heat-seal-flat-pouches",
-          "zipper-pouch-bag"
-        ],
-        "collection_limit": 12
-      }
-    },
     "newsletter_QadeyW": {
       "type": "newsletter",
       "settings": {
@@ -106,7 +86,6 @@
     "usp_1_GcmVLq",
     "category",
     "print_ePHdTC",
-    "collection_swiper_1_j8B6hx",
     "newsletter_QadeyW"
   ]
 }
