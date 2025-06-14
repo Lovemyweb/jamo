@@ -70,29 +70,24 @@
       ],
       "settings": {}
     },
-    "links": {
-      "type": "links",
+    "collection_swiper_1_j8B6hx": {
+      "type": "collection_swiper_1",
+      "name": "Collection Swiper 1",
       "settings": {
-        "text_headline": "Short heading here"
-      }
-    },
-    "content": {
-      "type": "content",
-      "settings": {
-        "text_headline": "Short heading here",
-        "text_button_text": "All Articles",
-        "url_button_link": "",
-        "url_artikel_1_link": "",
-        "text_artikel_1_titel": "Blog title heading will go here",
-        "text_artikel_1_excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.",
-        "article_artikel_2": "",
-        "url_artikel_2_link": "",
-        "text_artikel_2_titel": "Blog title heading will go here",
-        "text_artikel_2_excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.",
-        "article_artikel_3": "",
-        "url_artikel_3_link": "",
-        "text_artikel_3_titel": "Blog title heading will go here",
-        "text_artikel_3_excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros."
+        "text_heading": "Lorem ipsum dolor sit amet",
+        "collection_list": [
+          "bread-bag",
+          "biodegradable-packaging",
+          "clear-translucent-window-stand-up-pouches",
+          "coffee-bags",
+          "coffee-bags-with-valve",
+          "electrostatic-no-glue-required-stickers",
+          "floor-non-slip-stickers",
+          "foil-mylar-stand-up-pouches",
+          "heat-seal-flat-pouches",
+          "zipper-pouch-bag"
+        ],
+        "collection_limit": 12
       }
     },
     "newsletter_QadeyW": {
@@ -101,15 +96,6 @@
         "text_newsletter_headline": "Signup for Newsletter",
         "text_text": "Be the first to know about the latest, exclusive offers, and exciting product launches by subscribing to our newsletter.",
         "text_checkbox": "By subscribing you agree to with our Privacy Policy and provide consent to receive updates from our company."
-      }
-    },
-    "collection_swiper_1_j8B6hx": {
-      "type": "collection_swiper_1",
-      "name": "Collection Swiper 1",
-      "settings": {
-        "text_heading": "Lorem ipsum dolor sit amet",
-        "collection_list": [],
-        "collection_limit": 12
       }
     }
   },
@@ -121,8 +107,6 @@
     "category",
     "print_ePHdTC",
     "collection_swiper_1_j8B6hx",
-    "links",
-    "content",
     "newsletter_QadeyW"
   ]
 }
