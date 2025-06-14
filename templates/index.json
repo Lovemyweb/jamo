@@ -77,23 +77,6 @@
         "text_text": "Be the first to know about the latest, exclusive offers, and exciting product launches by subscribing to our newsletter.",
         "text_checkbox": "By subscribing you agree to with our Privacy Policy and provide consent to receive updates from our company."
       }
-    },
-    "collection_swiper_1_49n6BU": {
-      "type": "collection_swiper_1",
-      "name": "Collection Swiper 1",
-      "settings": {
-        "text_heading": "Shop by industry",
-        "collection_list": [
-          "bread-bag",
-          "coffee-bags",
-          "kraft-pouches",
-          "take-away-salad-pasta-soup-containers",
-          "tea-packaging",
-          "tear-notch-stand-up-pouches",
-          "vacuum-seal-pouches"
-        ],
-        "collection_limit": 7
-      }
     }
   },
   "layout": "theme",
@@ -103,7 +86,6 @@
     "usp_1_GcmVLq",
     "category",
     "print_ePHdTC",
-    "newsletter_QadeyW",
-    "collection_swiper_1_49n6BU"
+    "newsletter_QadeyW"
   ]
 }
