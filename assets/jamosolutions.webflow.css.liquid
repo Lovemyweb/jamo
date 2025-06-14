@@ -4851,10 +4851,15 @@ figcaption {
 }
 
 .swiper-hero-wr {
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 100px;
+  grid-auto-columns: 1fr;
   justify-content: space-between;
-  align-items: center;
+  place-items: center stretch;
   width: 100%;
-  display: flex;
+  display: grid;
 }
 
 .form-icon-wr {
