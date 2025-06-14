@@ -4,11 +4,11 @@
     Not in Stock    </div>
 {% endif %}{% if product.compare_at_price_max > product.price %}    <div li-if="product.compare_at_price_max > product.price" class="product-item_tag is-red">
     Sale    </div>
-{% endif %}</div></div><div class="spacer-xxsmall"></div><a li-object:href="product.url" href="{{ product.url }}" class="product-item_text-link w-inline-block"><div class="product-item_left"><h3 li-object="product.title" class="heading-style-h4 text-weight-normal">{{ product.title }}</h3></div><div class="product-item_price">{% if product.compare_at_price_max > product.price %}    <div li-if="product.compare_at_price_max > product.price">
+{% endif %}</div></div><div class="spacer-xxsmall"></div><a li-object:href="product.url" href="{{ product.url }}" class="product-item_text-link w-inline-block"><div class="product-item_left"><h3 li-object="product.title" class="card-product-name">{{ product.title }}</h3></div><div class="product-item_price">{% if product.compare_at_price_max > product.price %}    <div li-if="product.compare_at_price_max > product.price">
     <div li-object="product.compare_at_price | money" class="text-size-regular text-style-strikethrough text-style-muted">{{ product.compare_at_price | money }}</div>    </div>
 {% endif %}<div li-object="product.price | money" class="text-size-regular">{{ product.price | money }}</div></div></a>{% form 'product', product %}
 {% if product.has_only_default_variant != true %}    <div li-if="product.has_only_default_variant != true" class="product-header_option-list">
-    <div class="spacer-xsmall is-grow"></div><div class="spacer-xsmall is-grow"></div>    </div>
+        </div>
 {% endif %}{% endform %}
 <div class="margin-top-auto"><div class="product-item_form-wrapper">{% if product.available == true %}    <div li-if="product.available == true">
         </div>
